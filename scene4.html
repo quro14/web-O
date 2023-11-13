@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>전화 화면</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="phone_style.css">
     <style>
     input {
         width: 200px;
@@ -16,34 +16,35 @@
     </style>
 </head>
 <body>
-    <div class="screen">
+    <div class="screen3">
         <input type="text" id="phoneNumber" readonly>
         <div>
-            <button class="button" onclick="addToPhoneNumber(1)">1</button>
-            <button class="button" onclick="addToPhoneNumber(4)">4</button>
-            <button class="button" onclick="addToPhoneNumber(7)">7</button>
-            <button class="button" onclick="addToPhoneNumber('*')">*</button>
-            <button class="button"></button>
+            <button class="call_button" onclick="addToPhoneNumber(1)">1</button>
+            <button class="call_button" onclick="addToPhoneNumber(2)">2</button>
+            <button class="call_button" onclick="addToPhoneNumber(3)">3</button>
         </div>
         <div>
-            <button class="button" onclick="addToPhoneNumber(2)">2</button>
-            <button class="button" onclick="addToPhoneNumber(5)">5</button>
-            <button class="button" onclick="addToPhoneNumber(8)">8</button>
-            <button class="button" onclick="addToPhoneNumber(0)">0</button>
-            <button class="button">전화</button>
+            <button class="call_button" onclick="addToPhoneNumber(4)">4</button>
+            <button class="call_button" onclick="addToPhoneNumber(5)">5</button>
+            <button class="call_button" onclick="addToPhoneNumber(6)">6</button>
         </div>
         <div>
-            <button class="button" onclick="addToPhoneNumber(3)">3</button>
-            <button class="button" onclick="addToPhoneNumber(6)">6</button>
-            <button class="button" onclick="addToPhoneNumber(9)">9</button>
-            <button class="button" onclick="addToPhoneNumber('#')">#</button>
-            <button class="button" onclick="deleteLastDigit()">지우기</button>
+            <button class="call_button" onclick="addToPhoneNumber(7)">7</button>
+            <button class="call_button" onclick="addToPhoneNumber(8)">8</button>
+            <button class="call_button" onclick="addToPhoneNumber(9)">9</button>
+        </div>
+        <div>
+            <button class="call_button" onclick="addToPhoneNumber('*')">*</button>
+            <button class="call_button" onclick="addToPhoneNumber(0)">0</button>
+            <button class="call_button" onclick="addToPhoneNumber('#')">#</button>
+        </div>
+        <div>
+            <button class="call_button"><img src="img\call.png" alt="전화"></button>
+            <button class="call_button" onclick="deleteLastDigit()"><img src="img\left_arrow.png" alt="지우기"></button>
         </div>
     </div>
-    <div class="screen2">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button"onclick="location.href='scene1.html'">뒤로가기</button>
+    <div class="screen4">
+        <button class="button2"onclick="location.href='scene1.html'"><img src="img\home.png" alt="홈"></button>
     </div>
 
     <script>
