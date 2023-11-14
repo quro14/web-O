@@ -66,7 +66,7 @@ body {/*배경*/
     background-color: #eee;
     color: black;
     bottom: 530px;
-    right: 855px;
+    right: 858px;
     position: relative;
     border: 1px solid #000;
     border-radius: 5px;
@@ -115,6 +115,7 @@ body {/*배경*/
     justify-content: space-around;
     padding: 20px;
 }
+
 .search_bar {/*데스크탑 검색바*/
     width: 580px;
     height: 55px;
@@ -123,9 +124,72 @@ body {/*배경*/
     background: #767676;
     display: flex;
     bottom: 200px;
+    right: 40px;
     position: relative;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
     padding: 20px;
+}
+
+.trash_scr {/*데스크탑 쓰레기통*/
+    width: 700px;
+    height: 654px;
+    background: rgba(17, 17, 17, 0.81);
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    bottom: 80px;
+    right: 264px;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.topline{/* 데스크탑 상단창*/
+    width: 700px;
+    height: 50px;
+    background: rgba(36, 34, 34, 0.81);
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    bottom: 80px;
+    right: 0px;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.qbutton {/*quit버튼 */
+    width: 50px; 
+    height: 51px; 
+    margin: 10px;
+    font-size: 18px;
+    background-color: #eee;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    bottom: 20px;
+    left: 620px;
+    position: relative;
+    cursor: pointer;
+}
+
+.qbutton_search {/*search quit버튼 */
+    width: 50px; 
+    height: 51px; 
+    margin: 10px;
+    font-size: 18px;
+    background-color: #eee;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    bottom: 590px;
+    left: 625px;
+    position: relative;
+    cursor: pointer;
 }
