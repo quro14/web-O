@@ -202,3 +202,16 @@ body {/*배경*/
     border-radius: 5px;
     cursor: pointer;
 }
+
+.bell{
+    width: 70px; 
+    height: 70px; 
+    font-size: 18px;
+    background-color: #fdfdfd;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    left: 570px;
+    position: relative;
+    cursor: pointer;
+}
