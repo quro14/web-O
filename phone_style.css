@@ -64,9 +64,9 @@ body {/*배경*/
     height: 80px; 
     margin: 10px;
     font-size: 18px;
-    background-color: #eee;
+    background-color: #ccc;
     color: black;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
 }
